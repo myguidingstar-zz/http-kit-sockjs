@@ -18,7 +18,7 @@ Here is simple echo implementation. Make sure the each method returns the sessio
 
   ;; on message is call when a new message arrives at the server.
   (on-message [this session msg]
-    (send! s {:type :msg :content msg}))
+    (send! session {:type :msg :content msg}))
 
   ;; when a connection closes this method is called
   (on-close [this session] session))

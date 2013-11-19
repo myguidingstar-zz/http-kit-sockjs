@@ -1,4 +1,4 @@
-(defproject methojure/methojure-sockjs "0.2.0-SNAPSHOT"
+(defproject http-kit-sockjs "0.2.0-SNAPSHOT"
   :description "A sockjs implementation on top of http-kit server"
   :url "https://github.com/jenshaase/methojure"
   :license {:name "Eclipse Public License"
